@@ -1,0 +1,433 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>MY Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- animation link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- ////////////////// -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> -->
+    
+    
+</head>
+
+<body>
+    <header>
+    
+        <!-- navbar -->
+        <!-- ========== Start Section ==========<nav class="navbar navbar-expand-lg "> -->
+
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./portfolio.png" class="img-fluid navimglogo" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <i class="fa-solid fa-bars-staggered navbar-toggler-icon text-info"></i>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-aos="zoom-out" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-aos="zoom-out" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-aos="zoom-out" href="#Skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-aos="zoom-out" href="#Blog">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-aos="zoom-out" href="#Experience">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-aos="zoom-out" href="#Portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " data-aos="zoom-out" href="#contact">Contact</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link " data-aos="zoom-out" href="login2.html">LogIn</a>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- ========== End Section ========== -->
+    </header>
+    <!-- ========== Start Section ========== -->
+    <section class="home">
+        <div class="container homelayout" id="home">
+            <div class="row">
+
+                <!-- column 1 -->
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <h3 data-aos="fade-up-right" data-aos-duration="1000">Hello It's Me</h3>
+                    <h1 class="heading" data-aos="fade-up" data-aos-duration="3000">Zanib Mustafa</h1>
+                    <h3 data-aos="flip-right" data-aos-duration="3000">I'm a <span class="text-jv">FRONTEND DEVELOPER</span></h3>
+                    <!-- <div class="row"> -->
+                        <!-- <div class="col-lg-12 col-sm-12 col-xs-12"> -->
+                            <p data-aos="zoom-in" data-aos-duration="1000">A motivated 4th-semester BS Information Technology student with hands-on experience in web development, currently pursuing a short course from Peak Solution Trainings, Faisalabad. Alongside academic pursuits, I am a professional educator, successfully managing my own academy to support myself financially. Passionate about technology and teaching, I strive to continuously expand my skill set while fostering the growth of others through education.</p>
+                        <!-- </div> -->
+                    <!-- </div> -->
+                    
+                        <div class="mt-5">
+                            <i class="fa-solid fa-phone text-info"></i> &nbsp; +92 129064 76542
+                        </div>
+                        <div class="mt-3">
+                            <i class="fa-solid fa-envelope text-info"></i> &nbsp; mehar90@gmail.com
+                        </div>
+                    <div class="home-sci">
+                        <a href="#"><i class="fa-brands fa-facebook "></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <!-- BUTTON ABOUT US -->
+                    <button type="button" class="btn btn-info text-white btn-lg aboutbtn">More About me</button>
+                </div>
+
+                <!-- column 1 end -->
+                <!-- column 2 -->
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <img src="./profilepic.jpeg" class="img-fluid profilepic" data-aos="zoom-in-left"
+                        data-aos-duration="3000" alt="profile pic">
+                </div>
+                <!-- column 2 end -->
+            </div>
+        </div>
+    </section>
+    <!-- ========== End Section ========== -->
+    <!-- <hr style="width: 100%; height: 50px; color: slateblue; text-align: center;"> -->
+    <!-- ===============section 2 start about us ===================== -->
+    <div class="container-fluid aboutlayout" id="about">
+        <div class="row">
+            <div class="col">
+                <h1 class="aboutus-heading"  data-aos="fade-left" >About US</h1>
+                <h2 class="aboutus-heading"  data-aos="fade-right" >Full Stack Developer</h2>
+                <p class="aboutus-text" data-aos="fade-right">Welcome! I’m a dedicated BS Information Technology student, currently in my 4th semester, with a passion for exploring the ever-evolving world of technology. Along with my academic journey, I’m enhancing my expertise in web development through a short skills program at Peak Solution Trainings, Faisalabad.
+
+                    Beyond my studies, I am also a professional teacher who has founded and operates my own academy. Teaching allows me to share knowledge and empower others, while also supporting myself through this venture. My drive for learning and teaching keeps me motivated to constantly grow in both fields.
+                    
+                    Whether it's building innovative web solutions or mentoring future minds, I’m committed to creating a meaningful impact. Let’s connect and explore possibilities!</p>
+                <!-- BUTTON ABOUT US -->
+                <a href="#"><button type="button" class="btn btn-info text-white btn-lg aboutbtn">More About
+                        me</button></a>
+                        <!-- <button type="button">more about me</button> -->
+            </div>
+        </div>
+    </div>
+    <!-- ===============section 2 end about us ===================== -->
+    <!-- <hr style="width: 100%; height: 50px; color: slateblue; text-align: center;"> -->
+    <!-- =============== section 3 start Experience ===================== -->
+    <div class="container experiencelayout" id="Skills">
+        <!-- ========= 1 row=========== -->
+        <div class="row container-fluid">
+            <div class="col container">
+                <h1 class="experience-heading" data-aos="fade-up" data-aos-anchor-placement="top-bottom">What I do</h1>
+            </div>
+        </div>
+        <!-- ============ 2 row========== -->
+        <div class="row ">
+            <div class="col-md-12 col-lg-4 col-sm-12 ">
+                <div class="cardbox text-white  mb-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                    <div class="expicon Ui"><i class="fa-solid fa-bullseye"></i></div>
+                    <h1 class="card-title mb-3">UI Design</h1>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui veniam similique nostrum natus ipsum libero blanditiis placeat obcaecati ad! Maxime?</p>
+                </div>
+            </div>
+
+            <div class="col-md-12 col-lg-4 col-sm-12  ">
+                <div class="cardbox text-white  mb-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                    <div class="expicon html"><i class="fa-solid fa-code"></i></div>
+                    <h1 class="card-title mb-3">Web Development</h1>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime esse, similique
+                        tempora consequuntur porro aspernatur fugiat! Temporibus, rem! Sapiente, ea.</p>
+                </div>
+            </div>
+
+            <div class="col-md-12 col-lg-4 col-sm-12  ">
+                <div class="cardbox text-white  mb-3 " data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                    <div class="expicon brain"><i class="fa-solid fa-head-side-virus"></i></div>
+                    <h1 class="card-title mb-3">App Development</h1>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam rem itaque
+                        provident maxime quam ipsam soluta dignissimos doloribus voluptatibus saepe.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- ========== End Section 3 ========== -->
+    <!-- <hr style="width: 100%; height: 50px; color: slateblue; text-align: center;"> -->
+    <!-- ==========srart skill Section 4  ========== -->
+    <div class="container skill-layout">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <h1 class="skill-heading">Technical Skills</h1>
+                <!-- ========  1 bar =========== -->
+                <span class="left-bar">JavaScript</span>
+                <span class="right-bar">60%</span>
+                <div class="progress arrange-bar">
+                    <div class="progress-bar " data-aos="fade-right" style="width:60%">60%</div>
+                </div>
+
+
+                <!-- ========  2 bar =========== -->
+                <span class="left-bar">C++</span>
+                <span class="right-bar">93%</span>
+                <div class="progress arrange-bar">
+                    <div class="progress-bar " data-aos="fade-right" style="width:93%">93%</div>
+                </div>
+                <!-- ========  3 bar =========== -->
+                <span class="left-bar">Python</span>
+                <span class="right-bar">75%</span>
+                <div class="progress arrange-bar">
+                    <div class="progress-bar " data-aos="fade-right" style="width:75%">75%</div>
+                </div>
+                <!-- ========  4 bar =========== -->
+                <span class="left-bar">Java</span>r
+                <span class="right-bar">85%</span>
+                <div class="progress arrange-bar">
+                    <div class="progress-bar " data-aos="fade-right" style="width:85%">85%</div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <h1 class="skill-heading">Professional Skills</h1>
+                <div class="row  text-center">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="circle-progress mb-5" style="--percent: 90;">
+                            <svg>
+                                <circle class="circle-bg" cx="50" cy="50" r="40"></circle>
+                                <circle class="circle-bar" cx="50" cy="50" r="40" ></circle>
+                            </svg>
+                            <div class="circle-text">90%</div>
+                            <p class="text-center text-p">Communication</p>
+                        </div>
+                        <!-- ========== -->
+                        <div class="circle-progress" style="--percent: 86;">
+                            <svg>
+                                <circle class="circle-bg" cx="50" cy="50" r="40"></circle>
+                                <circle class="circle-bar" cx="50" cy="50" r="40"></circle>
+                            </svg>
+                            <div class="circle-text">86%</div>
+                            <p class="text-center text-p">Project Management</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-1">
+                        <div class="circle-progress mb-5" style="--percent: 55;">
+                            <svg>
+                                <circle class="circle-bg" cx="50" cy="50" r="40"></circle>
+                                <circle class="circle-bar" cx="50" cy="50" r="40"></circle>
+                            </svg>
+                            <div class="circle-text">55%</div>
+                            <p class="text-center text-p">Team Work</p>
+                        </div>
+                        <!-- ========== -->
+                        <div class="circle-progress" style="--percent: 60;">
+                            <svg>
+                                <circle class="circle-bg" cx="50" cy="50" r="40"></circle>
+                                <circle class="circle-bar" cx="50" cy="50" r="40"></circle>
+                            </svg>
+                            <div class="circle-text">60%</div>
+                            <p class="text-center text-p">Creativity</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ========== End Section 4 ========== -->
+    <!-- <hr style="width: 100%; height: 50px; color: slateblue; text-align: center;"> -->
+
+    <!-- ========== start Section 5 ========== -->
+        
+    
+    <!-- ========== start section 6 ============== -->
+     <div class="container " id="Experience">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+               <h1 class="skill-heading">EDUCATION</h1>
+             <div class="education">
+                <h4>Art & Multimedia From <i class="text-edu"> Oxford University</i></h4>
+                   <p class="text-edu"> 2005-2008</p>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum</p>  
+             </div>
+             <div class="education">
+                <h4>Art & Multimedia From <i class="text-edu"> Oxford University</i></h4>
+                   <p class="text-edu"> 2005-2008</p>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum</p>  
+             </div>
+             <div class="education">
+                <h4>Art & Multimedia From <i class="text-edu"> Oxford University</i></h4>
+                   <p class="text-edu"> 2005-2008</p>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum</p>  
+             </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                 <h1 class="skill-heading">Work experience</h1>
+                 <div class="education">
+                    <h4>Art & Multimedia From <i class="text-edu"> Oxford University</i></h4>
+                       <p class="text-edu"> 2005-2008</p>
+                        <span>Responsibility :
+                            <ul>
+                                <li> Validate CSS</li>
+                                <li> Project Management</li>
+                            </ul>
+                        </span>  
+                 </div>
+                 <div class="education">
+                    <h4>Art & Multimedia From <i class="text-edu"> Oxford University</i></h4>
+                       <p class="text-edu"> 2005-2008</p>
+                       <span>Responsibility :
+                        <ul>
+                            <li> Validate CSS</li>
+                            <li> Project Management</li>
+                        </ul>
+                    </span>  
+                 </div>
+                 <div class="education">
+                    <h4>Art & Multimedia From <i class="text-edu"> Oxford University</i></h4>
+                       <p class="text-edu"> 2005-2008</p>
+                       <span>Responsibility :
+                        <ul>
+                            <li> Validate CSS</li>
+                            <li> Project Management</li>
+                        </ul>
+                    </span>  
+                 </div>
+            </div>
+        </div>
+     </div>
+     <!-- =========== end section 6 ================== -->
+<!-- ============= section 7 ============= -->
+  <div class="container " id="Portfolio">
+        <div class="row">
+            <h1 class="aboutus-heading text-center m-5" data-aos="fade-left">Latest Project</h1>
+        <div class="col-lg-4">
+            <div class="project-card mb-3">
+                <img src="./portfolio1.jpg" alt="Project Image" class="img-fluid">
+                <!-- <div class="project-info">
+                    <h5>Project Name</h5>
+                    <p>"Project description goes here."</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div> -->
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="project-card mb-3">
+                <img src="./portfolio2.jpg" alt="Project Image" class="img-fluid">
+                <!-- <div class="project-info">
+                    <h5>Project Name</h5>
+                    <p>"Project description goes here."</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div> -->
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="project-card mb-3">
+                <img src="./portfolio3.jpg" alt="Project Image" class="img-fluid">
+                <!-- <div class="project-info">
+                    <h5>Project Name</h5>
+                    <p>"Project description goes here."</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+  </div>
+
+
+
+
+ <!-- ============= end section 7 =============== -->
+
+ <!-- ========== start section 8 =================== -->
+ <div class="container contact-section" id="contact">
+    <h2>Contact Me</h2>
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="contact-info mb-4">
+                <i class="fas fa-map-marker-alt"></i>
+                <h4>Address</h4>
+                <p>5th Avenue, 34th floor, New York</p>
+            </div>
+            <div class="contact-info mb-4">
+                <i class="fas fa-envelope"></i>
+                <h4>Email</h4>
+                <p>yourmail@email.com</p>
+                <p>yourmail@email.com</p>
+            </div>
+            <div class="contact-info mb-4">
+                <i class="fas fa-phone"></i>
+                <h4>Phone</h4>
+                <p>(880)-8976-987</p>
+                <p>(880)-8976-987</p>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <form class="contact-form">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" placeholder="First Name">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" placeholder="Last Name">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+                </div>
+                <input type="submit" name="" id="" class="send">
+                <!-- <button type="submit" class="btn send-btn">Send Message</button> -->
+            </form>
+        </div>
+    </div>
+</div>
+  <!-- =============== end section 8 ============== -->
+
+  <!-- <script>
+    var typed = new Typed(".text-jv", {
+        strings: ["Frontend Developer", "Youtuber", "Web Developer"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        backDelay: 1000,
+        loop: true
+    });
+</script> -->
+ <!-- <script src="portfolio.js"></script> -->
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- amination link -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="help1.js"></script>
+</body>
+</html>
