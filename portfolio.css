@@ -1,0 +1,494 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(4, 4, 33);
+    overflow-x:hidden;
+    /* position: relative; */
+}
+/* =========contact row========= */
+/* .contact-row{
+    background-color:rgb(59, 59, 59);
+    position: relative;
+    text-align: end;
+    color: white;
+    padding: 7px;
+    padding-left: -20px;
+    font-size: 20px;
+} */
+/* Add this to your CSS file */
+/* .home {
+    padding-top: 10px; Adjust this value based on the height of your navbar
+} */
+
+/* ==============nav bar============= */
+.navbar{
+    background-color:rgb(0,0,0,0.5);
+    /* position:fixed !important; */
+    /* margin-top: auto; */
+    /* width: 100%; */
+}
+.navimglogo{
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+#navbarNav{
+    justify-content:end;
+    margin-right:  100px;
+}
+.navbar-nav .nav-item .nav-link{
+    /* color: rgb(47, 57, 66); */
+    color: #ffff;
+    padding: 7px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: -10px;
+}
+/* ============ hover ==========  */
+.navbar-nav .nav-item:hover .nav-link{
+    color:skyblue;
+    border-bottom: 2px solid rgb(22, 94, 123);
+    /* background-color: whitesmoke; */
+    padding: 8px;
+    font-size: 20px;  
+}
+/* =======container home settimg ========= */
+.homelayout{
+    /* background-color: plum; */
+    margin-top: 40px;
+    padding-top: 70px;
+    padding-left: 50px;
+}
+/* ============ home ========= */
+.home{
+    color: white;
+    justify-content: center;
+    /* margin-top: 70px; */
+    /* padding-top: 300px; */
+    font-weight: 400;
+    font-size: larger;
+}
+.home .heading{
+    color: aquamarine;
+    /* box-shadow: 0 40px 40px #0ef; */
+}
+.home p{
+    width: 70%;
+    font-size: 17px;
+}
+.text-jv{
+    color: lightskyblue;
+}
+.home-sci{
+    margin: 50px 0;
+}
+.home-sci a i{
+    padding: 10px;
+    border: 2px solid skyblue;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    color: skyblue; 
+    border-radius: 100%;
+    /* font-size: large; */
+    margin:0 10px;
+}
+.home-sci a i:hover{
+    padding: 10px;
+    color: white;
+    background-color: #0ef;
+    /* font-size: large; */
+    box-shadow: 0 0 20px #0ef;
+}
+/* =========aboutbtn =========== */
+.aboutbtn{
+    box-shadow: 0 0 70px #0ef;
+    margin: 20px;
+}
+.aboutbtn:hover{
+    box-shadow: 0 0 100px #0ef;
+}
+/* ============ home logo img ======= */
+.profilepic{
+    justify-content: center;
+    border: 20px solid rgb(23, 45, 53);
+    box-shadow: 0 0 70px #0ef;
+    border-radius: 400px;
+    margin-top: 20px;
+    width: 90%;
+    height: auto;
+}
+.profilepic:hover{
+    border: 20px solid skyblue;
+}
+/* ============ about us ========== */
+.aboutlayout{
+    /* background-color: plum; */
+    text-align: center;
+    justify-content: center;
+    padding: 50px;
+    margin-top: 40px;
+}
+.aboutus-heading{
+    color: aquamarine;
+    font-size: 59px;
+}
+.aboutus-text{
+    margin-top: 30px;
+    font-size: 19px;
+    color: white;
+}
+/* =============== Experience layout ============= */
+.experiencelayout{
+    /* background-color: plum; */
+    /* padding: 20px; */
+    /* text-align: center; */
+    justify-content: center;
+    padding: 50px;
+    margin-top: 50px;
+}
+.experience-heading{
+    color: aquamarine;
+    font-size: 60px;
+    text-align: center;
+}
+.cardbox{
+    /* border: 1px soild none; */
+    background-color: rgb(54, 53, 53);
+    color: white;
+    /* text-align: center; */
+    justify-content:center;
+    margin: 30px 5px;
+    padding: 20px;
+    /* background-color: black; */
+}
+.expicon{
+    font-size: 40px;
+}
+.Ui{
+    color: purple;
+}
+.html{
+    color: orangered;
+}
+.brain{
+    color: aqua;
+}
+.card-title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffff;
+}
+/* =============== Skill layout ============= */
+.skill-layout{
+    /* background-color: plum; */
+    padding: 0 60px;
+}
+.skill-heading{
+    text-align: center;
+    padding: 30px;
+    color: aquamarine;
+}
+.arrange-bar{
+    /* margin-top: 10px; */
+    margin-bottom: 30px;
+    border-radius: 20px;
+   color: #0ef;
+   height: 10px;
+}
+.progress-bar{
+    color: #00bfa5 !important;
+    background-color: #00bfa5;
+}
+.left-bar{
+   color: white;
+   font-size: 30px;
+}
+.right-bar{
+    color:white;
+}
+/* ========== section skill help ================ */
+.circle-progress {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+}
+
+.circle-progress svg {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-90deg);
+}
+
+.circle-progress circle {
+    fill: none;
+    stroke-width: 8;
+    stroke-linecap: round;
+}
+
+.circle-progress .circle-bg {
+    stroke: #333;
+}
+
+.circle-progress .circle-bar {
+    stroke: #00bfa5;
+    stroke-dasharray: 251.2;
+    stroke-dashoffset: calc(251.2 - (251.2 * var(--percent)) / 100);
+}
+
+.circle-progress .circle-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffff;
+}
+.circle-progress .text-p{
+    color: #ffff;
+}
+
+/* @media (max-width: 768px) {
+    .progress {
+        height: 6px;
+    }
+
+    .circle-progress {
+        width: 80px;
+        height: 80px;
+    }
+
+    .circle-progress .circle-text {
+        font-size: 16px;
+    }
+} */
+
+/* ========================================= */
+.portfolio-layout{
+    /* background-color: plum; */
+    padding: 30px;
+}
+.portfolio-heading{
+    text-align: center;
+    padding: 30px;
+    color: aquamarine;
+    font-size: 60px;
+}
+/* ============ */
+.portfolio-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.portfolio-item img {
+    width: 100%;
+    /* display: block; */
+    /* transition: transform 0.5s ease; */
+}
+
+/* .portfolio-item:hover img {
+    transform: scale(1.1);
+} */
+
+/* .portfolio-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 191, 165, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.portfolio-item:hover .portfolio-overlay {
+    opacity: 1;
+} */
+
+/* .portfolio-overlay h4, .portfolio-overlay p {
+    color: #fff;
+    margin: 0;
+}
+
+.portfolio-overlay h4 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.portfolio-overlay p {
+    font-size: 16px;
+} */
+
+/* .portfolio-overlay .icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+} */
+/* ======= section 6 ======== */
+.education{
+    background-color:#282929;
+    color: #fff;
+    padding: 20px;
+    font-weight: 200;
+    /* text-align: center; */
+    margin: 20px;
+}
+.text-edu{
+    color: #00bfa5;
+}
+/* ========== section 7 ============= */
+.project-card {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #0ef;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    /* transition: transform 0.5s ease; */
+    border-radius: 15px;
+    filter: brightness(0.8);
+}
+
+/* .project-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+} */
+
+/* Hover Overlay */
+/* .project-info {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background: linear-gradient(to top, rgba(10, 161, 164, 0.9), rgba(0, 0, 0, 0.5));
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: bottom 0.5s ease, opacity 0.5s ease;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+} */
+
+/* .project-card:hover .project-info {
+    bottom: 0;
+    opacity: 1;
+}
+
+/* Text Styling */
+/* .project-info h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.project-info p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}  */
+
+/* Icon Styling */
+/* .project-info a {
+    color: white;
+    font-size: 2rem;
+    padding: 10px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+} */
+
+/* .project-info a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+} */
+ /* ================= section 8 ================ */
+ .contact-section {
+    padding: 60px 0;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    /* margin-top: 20px; */
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.contact-info {
+    background-color:#333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    /* transition: background-color 0.3s ease; */
+}
+
+.contact-info:hover {
+    background-color: #0aa1a4;
+}
+
+.contact-info i {
+    font-size: 2rem;
+    color: #0aa1a4;
+    margin-bottom: 10px;
+}
+
+.contact-info h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.contact-form .form-control {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #0aa1a4;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.contact-form .form-control:focus {
+    background-color:#333;
+    border-color: #0aa1a4;
+    box-shadow: none;
+    
+}
+
+.send{
+    background-color: #0aa1a4;
+    border-color: #0aa1a4;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 30px;
+    font-size: 1rem;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.send:hover {
+    background-color: #08898e;
+    border-color: #08898e;
+}
